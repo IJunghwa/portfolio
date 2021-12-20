@@ -1,0 +1,290 @@
+{
+  "imageFolder": "../images/",
+  "portfolioList": [
+    {
+      "img": "03.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "11.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "20.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "04.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "12.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "21.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "07.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "13.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "22.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "06.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "14.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "23.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "05.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "15.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "24.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "08.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "16.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "25.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "09.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "17.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "26.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "02.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "18.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "27.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "01.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "19.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "28.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "00.jpg",
+      "title": "to the unknown man",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "painting"
+    },
+    {
+      "img": "10.jpg",
+      "title": "The United States is winding",
+      "desc": "The United States saw the most new coronavirus cases of the pandemic on Friday, with deaths and hospitalizations also rising. Underlying conditions largely determine who survives.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "custom"
+    },
+    {
+      "img": "29.jpg",
+      "title": "severe wave and I think as",
+      "desc": "In California, where daily case reports have tripled in the last month, Gov. Gavin Newsom announced a new round of regional stay-at-home orders to address a mounting crisis over intensive-care beds. Some counties in the Bay Area said they were enacting tough new restrictions this weekend, before the state rules come into effect. And in South Florida, which is in the early stages of a new surge, physicians and politicians alike worried that there might not be enough resources to treat the sick.",
+      "skill": "repair / painting ...",
+      "period": "three hours",
+      "category": "repair"
+    },
+    {
+      "img": "dkg.png",
+      "title": "DKG CLONE CODING",
+      "desc": "full page 를 이용한 부동산 전문회사 LANDING page 제작",
+      "skill": "html / scss / jQuery / fullpage js / gsap ...",
+      "period": "1weeks",
+      "category": "web",
+      "link": "https://dlwndghkek.github.io/dkg/html/index.html"
+    },
+    {
+      "img": "hitop.png",
+      "title": "hitop CLONE CODING",
+      "desc": "PC / MOBILE 접속 여부에 따라 화면이 다르게 보이는 적응형 웹",
+      "skill": "html / scss / jQuery / adpative web / gsap / php ...",
+      "period": "1weeks",
+      "category": "web",
+      "link": "http://dlwndghkek.dothome.co.kr/hitop/"
+    },
+    {
+      "img": "neoforet.png",
+      "title": "neoforet CLONE CODING",
+      "desc": "PC / MOBILE 접속 여부에 따라 화면이 다르게 보이는 적응형 웹",
+      "skill": "html / scss / jQuery / adpative web / gsap / php ...",
+      "period": "1weeks",
+      "category": "web",
+      "link": "http://dlwndghkek.dothome.co.kr/neoforet/"
+    },
+    {
+      "img": "famoussaying.png",
+      "title": "famous saying",
+      "desc": "perspective 를 이용한 명언 보여주기",
+      "skill": "html / scss / jQuery / gsap ...",
+      "period": "1 day",
+      "category": "toyproject",
+      "link": "https://dlwndghkek.github.io/cube/html/index03.html"
+    },
+    {
+      "img": "supermario.png",
+      "title": "supermario",
+      "desc": "swiper js와 ajax를 이용한 이미지 갤러리",
+      "skill": "html / scss / jQuery / ajax / swiper / gsap ...",
+      "period": "1 day",
+      "category": "toyproject",
+      "link": "https://dlwndghkek.github.io/ssupermario/html/"
+    }
+  ]
+}
