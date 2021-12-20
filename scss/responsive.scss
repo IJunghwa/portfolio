@@ -1,8 +1,8 @@
-@media all and (max-width:980px) {
+@media all and (max-width: 980px) {
   #intro {
     .video {
       video {
-        width:100%;
+        width: 100%;
       }
     }
     .typing {
@@ -10,14 +10,17 @@
     }
   }
   .contentsWrap {
-    padding:50px;
+    padding: 50px;
     .section {
       h2 {
         font-size: 64px;
       }
     }
   }
-  #profile, #career, #portfolio, #contact {
+  #profile,
+  #career,
+  #portfolio,
+  #contact {
     ul li dl {
       font-size: 24px;
       dt {
@@ -41,7 +44,7 @@
     }
     .itemList {
       li {
-        width:calc(50% - 10px);
+        width: calc(50% - 10px);
         margin: 5px;
       }
     }
@@ -57,7 +60,7 @@
   }
 }
 
-@media all and (max-width:640px) {
+@media all and (max-width: 640px) {
   .contentsWrap .section {
     min-height: auto;
   }
@@ -66,7 +69,8 @@
       font-size: 24px;
     }
   }
-  #profile, #career {
+  #profile,
+  #career {
     ul li dl {
       flex-direction: column;
       align-items: flex-start;
@@ -78,7 +82,7 @@
       ul {
         flex-direction: column;
         li {
-          width:100%;
+          width: 100%;
           margin: 5px 0;
         }
       }
@@ -86,14 +90,20 @@
     .itemList {
       margin: 30px auto 50px;
       li {
-        width:100%;
-        margin:10px 0;
+        width: 100%;
+        margin: 10px 0;
       }
     }
   }
+  #contact {
+    padding-bottom: 100px !important;
+  }
 }
-@media all and (max-width:480px) {
+@media all and (max-width: 480px) {
   .contentsWrap {
-    padding:0 20px;
+    padding: 0 20px;
+  }
+  #footer {
+    padding: 30px;
   }
 }

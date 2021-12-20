@@ -31,3 +31,19 @@ img { vertical-align: top; }
 #footer { background-color: #111; color: #fff; padding: 80px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; z-index: 2; position: relative; font-size: 18px; text-transform: uppercase; }
 
 #footer strong { font-weight: 700; }
+
+#popup { position: fixed; z-index: 100000; left: 100px; top: 100px; background-color: #fff; border: 4px solid #111; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); border-radius: 10px; overflow: hidden; }
+
+#popup .contents { padding: 50px 80px 20px 0px; }
+
+#popup .contents .alertTxt { position: absolute; padding: 15px; border-radius: 10px; width: 250px; word-break: keep-all; left: 160px; top: 30px; background: #fff; margin: 20px; line-height: 1.8; color: #111; font-size: 14px; -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15); }
+
+#popup .contents .alertTxt strong { font-weight: 700; line-height: 1; position: relative; z-index: 2; }
+
+#popup .contents .alertTxt strong:after { content: ""; position: absolute; left: -2px; right: -2px; bottom: 2px; height: 6px; background-color: #f00; border-radius: 100px; z-index: -1; }
+
+#popup .btns { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+#popup .btns button { width: 50%; padding: 20px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #ccc; }
+
+#popup .btns button.oneday { background-color: #111; color: #fff; }

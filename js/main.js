@@ -44,8 +44,10 @@ profileTL
       each: 0.1,
     },
   })
-  .from("#profile h2", {
-    borderBottomWidth: 0,
+  .from(CSSRulePlugin.getRule("#profile h2:after"), {
+    cssRule: { scaleX: 0 },
+    duration: 2,
+    ease: "power2",
   })
 
   .from("#profile .contents .char", {
@@ -73,8 +75,10 @@ careerTL
       each: 0.1,
     },
   })
-  .from("#career h2", {
-    borderBottomWidth: 0,
+  .from(CSSRulePlugin.getRule("#career h2:after"), {
+    cssRule: { scaleX: 0 },
+    duration: 2,
+    ease: "power2",
   })
 
   .from("#career .contents .char", {
@@ -110,8 +114,10 @@ skillTL
       each: 0.1,
     },
   })
-  .from("#skill h2", {
-    borderBottomWidth: 0,
+  .from(CSSRulePlugin.getRule("#skill h2:after"), {
+    cssRule: { scaleX: 0 },
+    duration: 2,
+    ease: "power2",
   })
   .from(
     "#skill ul li",
@@ -255,72 +261,76 @@ $.ajax({
           title: ".title",
         },
       });
-    });
-    const portfolioTL = gsap.timeline({
-      scrollTrigger: {
-        trigger: "#portfolio",
-        start: "top top",
-        end: "bottom top",
-        pin: true,
-        scrub: 1,
-      },
-    });
-    portfolioTL
-      .from("#portfolio h2 .char", {
-        x: "+=100",
-        opacity: 0,
-        stagger: {
-          each: 0.1,
-        },
-      })
-      .from("#portfolio h2", {
-        borderBottomWidth: 0,
-      })
-      .from("#portfolio #filter ul li", {
-        x: "+=100",
-        opacity: 0,
-        stagger: {
-          each: 0.1,
-        },
-      })
-      .from("#portfolio .itemList li", {
-        y: "+=100",
-        opacity: 0,
-        stagger: {
-          each: 0.1,
+      const portfolioTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#portfolio",
+          start: "top top",
+          end: "bottom top",
+          pin: true,
+          scrub: 1,
         },
       });
-    const contactTL = gsap.timeline({
-      scrollTrigger: {
-        trigger: "#contact",
-        start: "top top",
-        end: "bottom top",
-        pin: true,
-        scrub: 1,
-      },
-    });
-    contactTL
-      .from("#contact h2 .char", {
-        x: "+=100",
-        opacity: 0,
-        stagger: {
-          each: 0.1,
+      portfolioTL
+        .from("#portfolio h2 .char", {
+          x: "+=100",
+          opacity: 0,
+          stagger: {
+            each: 0.1,
+          },
+        })
+        .from(CSSRulePlugin.getRule("#portfolio h2:after"), {
+          cssRule: { scaleX: 0 },
+          duration: 2,
+          ease: "power2",
+        })
+        .from("#portfolio #filter ul li", {
+          x: "+=100",
+          opacity: 0,
+          stagger: {
+            each: 0.1,
+          },
+        })
+        .from("#portfolio .itemList li", {
+          y: "+=100",
+          opacity: 0,
+          stagger: {
+            each: 0.1,
+          },
+        });
+      const contactTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#contact",
+          start: "top top",
+          end: "bottom top",
+          pin: true,
+          scrub: 1,
         },
-      })
-      .from("#contact h2", {
-        borderBottomWidth: 0,
-      })
-      .from("#contact ul .char", {
-        x: "+=100",
-        opacity: 0,
-        stagger: {
-          each: 0.1,
-        },
-      })
-      .from("#contact form", {
-        x: "+=100",
-        opacity: 0,
       });
+      contactTL
+        .from("#contact h2 .char", {
+          x: "+=100",
+          opacity: 0,
+          stagger: {
+            each: 0.1,
+          },
+        })
+        .from(CSSRulePlugin.getRule("#contact h2:after"), {
+          cssRule: { scaleX: 0 },
+          duration: 2,
+          ease: "power2",
+        })
+        .from("#contact ul .char", {
+          x: "+=100",
+          opacity: 0,
+          stagger: {
+            each: 0.1,
+          },
+        })
+        .from("#contact form", {
+          x: "+=100",
+          opacity: 0,
+        });
+    });
   },
 });
 
@@ -383,3 +393,37 @@ $(".itemList").on("mouseleave", "li", function () {
 });
 
 //porfolio
+const popup = $("#popup");
+const btnOneday = popup.find(".oneday");
+const btnClose = popup.find(".close");
+btnOneday.on("click", function () {
+  //popup.hide();
+  Cookies.set("oneday", "one", { expires: 1 });
+  gsap.to("#popup", {
+    duration: 1,
+    top: "-100%",
+    ease: "back.in",
+    onComplete: function () {
+      popup.remove();
+    },
+  });
+});
+//cookie를 이용
+btnClose.on("click", function () {
+  //popup.hide();
+  gsap.to("#popup", {
+    duration: 1,
+    top: "-100%",
+    ease: "back.in",
+    onComplete: function () {
+      popup.remove();
+    },
+  });
+});
+
+console.log(Cookies.get("oneday"));
+if (Cookies.get("oneday") === "one") {
+  popup.hide();
+} else {
+  popup.show();
+}
